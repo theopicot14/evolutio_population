@@ -9,7 +9,7 @@ temps = np.arange(0,max_generation, 1)
 r = st.slider("entrer nb enfant/organisme au départ :", #nombre d'enfant au départ
                 min_value = 0.,
                 max_value = 4.,
-                value = 1.1,
+                value = 2.0,
                 step = .1)
 
 x0 = st.slider("entrer la densité d'organisme au départ :", #taille de la pop au départ
